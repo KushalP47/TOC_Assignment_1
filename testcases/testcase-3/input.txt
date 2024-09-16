@@ -1,0 +1,13 @@
+States: {s0, s1, s2, s3}
+Alphabet: {a, b}
+Start State: s0
+Accept States: {s3}
+Transitions:
+s0 -> a -> s1
+s0 -> b -> s2
+s1 -> a -> s3
+s1 -> b -> s0
+s2 -> a -> s0
+s2 -> b -> s3
+s3 -> a -> s3
+s3 -> b -> s3

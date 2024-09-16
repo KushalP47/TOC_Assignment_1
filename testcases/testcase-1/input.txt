@@ -1,0 +1,8 @@
+States: {q0, q1, q2}
+Alphabet: {0, 1}
+Start State: q0
+Accept States: {q2}
+Transitions:
+q0 -> 0 -> q0
+q0 -> 1 -> q0, q1
+q1 -> 1 -> q2
